@@ -1,0 +1,33 @@
+{
+  "name": "app_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm",
+    "dev": "nodemon -r esm ."
+  },
+  "author": "Deepanshu Prajapati",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consola": "^2.15.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "esm": "^3.2.25",
+    "eth-sig-util": "^2.1.0",
+    "ethereumjs-util": "^5.1.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-validator": "^6.11.1",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.1"
+  }
+}

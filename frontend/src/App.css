@@ -1,0 +1,58 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+.container {
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  height: 1.5rem;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 8px;
+  text-indent: 10px;
+}
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+p {
+  word-wrap: break-word;
+  text-overflow: clip;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+.pt {
+  padding-top: 1rem;
+}
+
+.token_div {
+  word-break: break-all;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
